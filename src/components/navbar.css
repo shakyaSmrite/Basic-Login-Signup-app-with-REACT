@@ -1,0 +1,20 @@
+nav {
+  height: 8.75vh;
+  width: 100vw;
+  background-color: #345661;
+}
+
+.navlist {
+  height: 8.75vh;
+  display: flex;
+  /* align item-->vertical(opposite in resp to current direction) */
+  /* justify is in the current direction */
+  align-items: center;
+  justify-content: flex-end;
+}
+
+li {
+  padding: 50px;
+  list-style: none;
+  color: #FFF;
+}

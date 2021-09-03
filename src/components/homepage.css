@@ -1,0 +1,17 @@
+.homepage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 50vh;
+
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  background-color: rgb(234, 238, 243);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 5px grey;
+  position: relative;
+}
