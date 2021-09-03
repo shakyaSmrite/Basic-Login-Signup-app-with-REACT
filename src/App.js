@@ -8,17 +8,17 @@ import { useState } from "react";
 
 function App() {
   const [users, setUsers] = useState({});
-  const [loggedIn, setLoggedIn] = useState(["",""])
+  const [loggedIn, setLoggedIn] = useState(["", ""]);
   return (
     <div className="App">
       <Router>
         <NavBar />
         <Switch>
           <Route path="/home">
-            <HomePage loggedIn={loggedIn}/>
+            <HomePage loggedIn={loggedIn} />
           </Route>
           <Route path="/login">
-            <Login users={users} setLoggedIn={setLoggedIn}/>
+            <Login users={users} setLoggedIn={setLoggedIn} />
           </Route>
           <Route path="/signup">
             <SignUp users={users} setUsers={setUsers} />

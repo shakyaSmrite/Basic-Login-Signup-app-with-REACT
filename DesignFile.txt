@@ -1,0 +1,26 @@
+1. Make all the components skeleton and their CSS files
+2.create one components piece by piece
+3.NavBar, LOGIN, SIGNUP,HOMEPAGE --> COMPONENTS 
+4. NavBar--> as this is available in all components; basic navbar design
+5. Design Basic UserInterface(UI) for all the components(homepage, login,signup)
+6.Default display homepage but with no username
+7.using Router link to each component page on Navbar
+8.work on signup page-->
+	- store all the inputs in useState- create useState for each INPUTS
+	- create one useState(choose datastructure of your choice with optimum time and 
+		space complexity)to store all the input details like name,email,pwin it
+9.also create a useState that can be accessed by all the components in the APP.js file
+	- for this app we used Hash Table with email as the key and name,pw as array to
+		store in the useState created
+	-make sure to pass the useState to all the components required 
+10. for Signup page you will need both users,setUsers as you will also set new users here
+11. for login page you will only need users page as you will only be looking up email and
+	verifying password
+12. also make sure to address all the if cases in loginpage like if password entered is correct or not and 
+	display an alert if the pw is wrong or if the email is not valid alert them to sign up 
+13. check the password matches while re-entering in signup page
+14. Use useHistory to display homepage by default -->learn more about useHistory
+
+
+
+

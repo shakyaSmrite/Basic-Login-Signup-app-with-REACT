@@ -16,10 +16,10 @@ const Login = ({ users, setLoggedIn }) => {
         setLoggedIn([email, users[email][0]]);
         history.push("/home");
       } else {
-        alert("Incorrect password.try again!");
+        alert("Incorrect password.Try again!!");
       }
     } else {
-      alert("SIGN UP FIRST");
+      alert("SIGN UP FIRST!!");
     }
   }
 
